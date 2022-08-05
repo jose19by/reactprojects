@@ -1,0 +1,83 @@
+*{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #280965;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+button {
+  width: 250px;
+  height: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight:  bold;
+  color: #ffffff;
+  font-size: 35px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  
+}
+
+
+.boton-clic{
+  background-color: rgb(53, 189, 144);
+}
+.boton-clic:hover {
+  background-color: rgb(43, 87, 199);
+}
+
+
+.boton-reiniciar {
+  background-color: rgb(53, 189, 144);
+}
+.boton-reiniciar:hover {
+  background-color: rgb(43, 87, 199);
+}
+
+.counter {
+  min-width:  300px;
+  height: 300px;
+  font-size: 160px;
+  padding: 25px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid #ffffff;
+  margin-bottom: 15px;
+}
+
+.count-countainer{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
